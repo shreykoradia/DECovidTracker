@@ -1,17 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import { BrowserRouter,Routes,Route } from "react-router-dom"
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+import Covidstats from './components/CovidStats/Covidstats'
+import Footer from './components/Footer'
+
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  // <React.StrictMode>
+  <BrowserRouter>
+  <Routes>
+      {/* {routes goes here !! } */}
+      <Route path="/" exact element={<App />}></Route>
+      <Route path="/covid-stats" element={<Covidstats />}></Route>
+      <Route path="/team" element={<Footer />}></Route>
+  </Routes> 
+  </BrowserRouter>,
   document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

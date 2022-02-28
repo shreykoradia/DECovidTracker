@@ -1,0 +1,8 @@
+
+.header-name{
+    text-align: center !important;
+    margin-top: 2rem !important;
+    padding: 1rem !important;
+    user-select: none;
+    cursor: pointer;
+}
