@@ -6,6 +6,7 @@ import Footer from './components/Footer'
 // import { DistortionText } from 'react-text-fun'
 import './App.css'
 import Navbar from './components/Navbar';
+import Helpguide from './components/Helpguide';
 
 
 function App() {
@@ -56,6 +57,7 @@ function App() {
                 <Homepage />
                 </div>
                 {/* {rest of the components goes here !!} */}
+                <Helpguide />
                 <Footer />
 
             </>
