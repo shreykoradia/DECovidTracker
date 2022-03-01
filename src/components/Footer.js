@@ -1,27 +1,79 @@
 import React from 'react';
 import { Link, Paper, Typography } from '@material-ui/core'
-import  './footer.css'
-
-function Footer() {
-  return (
-  
-        <>
-            <div className='container'>
-                <div className='footer-container'>
-                    <Paper elevation={0}>
-                        <Typography align='justify' variant='overline' paragraph={true} noWrap={false} >
-                            The core Team who have build this Web-Application : 
-                            Shrey Koradia's <Link href='https://github.com/shreykoradia'>GitHub</Link> 
-                        </Typography>
-                    </Paper>
-                </div>      
-            </div>
-
-        </>
+import {
+    Box,
+    Container,
+    Row,
+    Column,
+    FooterLink,
+    Heading,
+  } from "./FooterStyles";
     
+const Footer = () => {
+    return (
+      <Box>
+        <h1 style={{ color: "white", 
+                     textAlign: "center", 
+                     marginTop: "-50px" }}>
+          Connect with us 
+        </h1>
+        <Container>
+          <Row>
+            <Column>
+              <Heading>About Us</Heading>
+              <FooterLink href="#">Aim</FooterLink>
+              <FooterLink href="#">Vision</FooterLink>
+              <FooterLink href="#">Testimonials</FooterLink>
+            </Column>
+            <Column>
+              <Heading>Services</Heading>
+              <FooterLink href="#">covid stats</FooterLink>
+              <FooterLink href="#">vaccination details</FooterLink>
+              <FooterLink href="#">new strain data</FooterLink>
+              <FooterLink href="#">Travelling info</FooterLink>
+            </Column>
+            <Column>
+              <Heading>Contact Us</Heading>
+              <FooterLink href="#">Uttar Pradesh</FooterLink>
+              <FooterLink href="#">Ahemdabad</FooterLink>
+              <FooterLink href="#">Indore</FooterLink>
+              <FooterLink href="#">Mumbai</FooterLink>
+            </Column>
+            <Column>
+              <Heading>Social Media</Heading>
+              <FooterLink href="#">
+                <i className="fab fa-facebook-f">
+                  <span style={{ marginLeft: "10px" }}>
+                    Facebook
+                  </span>
+                </i>
+              </FooterLink>
+              <FooterLink href="#">
+                <i className="fab fa-instagram">
+                  <span style={{ marginLeft: "10px" }}>
+                    Instagram
+                  </span>
+                </i>
+              </FooterLink>
+              <FooterLink href="#">
+                <i className="fab fa-twitter">
+                  <span style={{ marginLeft: "10px" }}>
+                    Twitter
+                  </span>
+                </i>
+              </FooterLink>
+              <FooterLink href="#">
+                <i className="fab fa-youtube">
+                  <span style={{ marginLeft: "10px" }}>
+                    Youtube
+                  </span>
+                </i>
+              </FooterLink>
+            </Column>
+          </Row>
+        </Container>
+      </Box>
     );
-}
-
-export default Footer;
-
-
+  };
+  export default Footer;
+  

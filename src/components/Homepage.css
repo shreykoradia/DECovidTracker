@@ -1,5 +1,9 @@
 .cards-container{
+    background-color: #a0dff1ec;
     max-height: 100vh;
+    padding: 7.5rem 3.5rem;
+    margin-left: auto 0% !important;
+    
 }
 
 .card-card{

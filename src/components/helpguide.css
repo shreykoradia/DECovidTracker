@@ -1,0 +1,68 @@
+.h-container{
+    height: 100vh;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.helpguide{
+    padding-top: 30px;
+    font-size: xx-large;
+    margin-bottom: 50px;
+}
+
+.hg-row1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-fluid1{
+    height:150px;
+    margin-right: 170px;
+    display: flex;
+    border-right-width: 10px;
+    position: relative;
+    right: 52%;
+    
+}
+.img-fluid2{
+    height:150px;
+    margin-right: 75px;
+    display: flex;
+    padding-right: 115px;
+    position: relative;
+    right: 45%;
+}
+
+.img-fluid3{
+    height:150px;
+    margin-right: 150px;
+    display: flex;
+    position: relative;
+    right:50% ;
+}
+.no-gutters{
+    display: flex;
+}
+.card{
+    display: flex;
+    justify-content: center;
+}
+
+.hr {
+	background-color: #fff;
+	border-top: 2px dashed #8c8b8b;
+    margin: 30px 0px;
+}
+
+.textblock1{
+    position: absolute;
+    right: 28.5%;
+}
+
+.textblock2{
+    position: absolute;
+    right: 25.4%;
+}
+.textblock3{
+    position: absolute ;
+    right: 30%;
+}
