@@ -5,3 +5,13 @@
     user-select: none !important;
     cursor: pointer !important;
 }
+
+.Footer{
+
+    display: flex;
+    margin-top: 10% !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

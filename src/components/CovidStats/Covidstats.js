@@ -3,6 +3,7 @@ import styles from './covidstats.css'
 import {Cards , Countrypicker, Charts} from './components'
 import {fetchData} from '../../api/index'
 import { Typography } from '@material-ui/core'
+import Footers from "./components/Footers"
 
 class Covidstats extends React.Component {
 state = {
@@ -25,10 +26,13 @@ handleCountryChange = async(country)=>{
     const {data,country} = this.state;
     return (
       <div className = {styles.container}>
-          <Typography align='justify' gutterBottom={false} variant='h4' noWrap="true">Covid-Stats</Typography>
+          <Typography align='justify' gutterBottom={false} variant='h4'>Covid-Stats</Typography>
           <Cards data={data} />
           <Countrypicker handleCountryChange={this.handleCountryChange} />
           <Charts  data={data} country={country} />
+          <div className='Footer'>
+          <Footers />
+          </div>
       </div>
     );
   }
