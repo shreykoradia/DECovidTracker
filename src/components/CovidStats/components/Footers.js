@@ -23,7 +23,7 @@ const Media = () => (
   </Box>
 );
 
-export const Social = () => (
+export const Footers = () => (
   // Uncomment <Grommet> lines when using outside of storybook
   // <Grommet theme={...}>
   <Box>
@@ -40,4 +40,4 @@ export const Social = () => (
   // </Grommet>
 );
 
-export default Social
+export default Footers

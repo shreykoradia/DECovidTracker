@@ -58,7 +58,10 @@ function App() {
                 </div>
                 {/* {rest of the components goes here !!} */}
                 <Helpguide />
+                <div className='footer'>
                 <Footer />
+                </div>
+                
 
             </>
   );

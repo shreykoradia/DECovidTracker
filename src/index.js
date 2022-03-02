@@ -13,7 +13,7 @@ ReactDOM.render(
       {/* {routes goes here !! } */}
       <Route path="/" exact element={<App />}></Route>
       <Route path="/covid-stats" element={<Covidstats />}></Route>
-      <Route path="/team" element={<Footer />}></Route>
+      <Route path="/footer" element={<Footer />}></Route>
   </Routes> 
   </BrowserRouter>,
   document.getElementById('root')
