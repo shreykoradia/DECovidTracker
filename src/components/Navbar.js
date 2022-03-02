@@ -19,9 +19,9 @@ function Navbar() {
       <NavbarInnerContainer>
         <RightContainer>
           <NavbarLinkContainer>
-            <NavbarLink to="/about"> About </NavbarLink>
+            {/* <NavbarLink to="/about"> About </NavbarLink> */}
             <NavbarLink to="/blogs">Blogs</NavbarLink>
-            <NavbarLink to="/contact"> Contact </NavbarLink>
+            {/* <NavbarLink to="/contact"> Contact </NavbarLink> */}
             <OpenLinksButton
               onClick={() => {
                 setExtendNavbar((curr) => !curr);
