@@ -56,6 +56,8 @@ function App() {
                 <div className='second-container'>
                 <Homepage />
                 </div>
+                <br />
+                <br />
                 {/* {rest of the components goes here !!} */}
                 <Helpguide />
                 <div className='footer'>

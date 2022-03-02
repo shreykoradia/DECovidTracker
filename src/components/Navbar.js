@@ -19,9 +19,8 @@ function Navbar() {
       <NavbarInnerContainer>
         <RightContainer>
           <NavbarLinkContainer>
-            {/* <NavbarLink to="/about"> About </NavbarLink> */}
-            <NavbarLink to="/blogs">Blogs</NavbarLink>
-            {/* <NavbarLink to="/contact"> Contact </NavbarLink> */}
+            <NavbarLink to="/about">Team</NavbarLink>
+            <NavbarLink to="/api">API's</NavbarLink>
             <OpenLinksButton
               onClick={() => {
                 setExtendNavbar((curr) => !curr);
@@ -34,9 +33,8 @@ function Navbar() {
       </NavbarInnerContainer>
       {extendNavbar && (
         <NavbarExtendedContainer>
-          <NavbarLinkExtended to="/about"> About </NavbarLinkExtended>
-          <NavbarLinkExtended to="/blogs"> Blogs</NavbarLinkExtended>
-          <NavbarLinkExtended to="/contact"> Contact </NavbarLinkExtended>
+          <NavbarLinkExtended to="/about">Team</NavbarLinkExtended>
+          <NavbarLinkExtended to="/blogs"> API's</NavbarLinkExtended>
         </NavbarExtendedContainer>
       )}
     </NavbarContainer>
