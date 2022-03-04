@@ -1,0 +1,8 @@
+.header-name{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    user-select: none;
+}
