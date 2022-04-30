@@ -1,8 +1,17 @@
-
 .header-name{
     text-align: center !important;
-    margin-top: 2rem !important;
-    padding: 1rem !important;
-    user-select: none;
-    cursor: pointer;
+    max-width: 100vw !important;
+    max-height: 100vh !important;
+    user-select: none !important;
+    cursor: pointer !important;
+}
+
+.Footer{
+
+    display: flex;
+    margin-top: 10% !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }

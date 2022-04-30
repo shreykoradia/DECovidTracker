@@ -40,7 +40,7 @@ function App() {
                     }
                 }
                 >
-                <WorldMap color="#A020F0" />
+                <WorldMap color="#a0dff1ec" />
                 </Box>
                 <Container maxWidth='sm'>
                 <Typography align='justify' variant='overline' paragraph={true} noWrap={false}>A Covid Tracker built by developers based out of India For the People of India , 
@@ -56,9 +56,14 @@ function App() {
                 <div className='second-container'>
                 <Homepage />
                 </div>
+                <br />
+                <br />
                 {/* {rest of the components goes here !!} */}
                 <Helpguide />
+                <div className='footer'>
                 <Footer />
+                </div>
+                
 
             </>
   );
