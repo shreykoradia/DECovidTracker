@@ -10,7 +10,6 @@ import {
   } from "./FooterStyles";
 
   import { FiMail,FiInstagram , FiTwitter , FiGithub , FiLinkedin} from "react-icons/fi";
-import { Flex } from '@chakra-ui/react';
 
     
 const Footer = () => {
@@ -28,11 +27,12 @@ const Footer = () => {
         <Container>
           <Row>
             <Column>
+            <Button variant="text">
               <Heading style={{ color: "white", 
                       userSelect : "none",
                       cursor:"pointer",
-                     }}><Typography variant='h6'>Subscribe to our NewsLetter</Typography></Heading>
-              <Button variant="outlined">Subscribe</Button>
+                     }}><Typography variant='body2'>Subscribe to our NewsLetter</Typography></Heading>
+              </Button>
             </Column>
             <Column>
               <Heading><Typography variant='h5'>Services</Typography></Heading>

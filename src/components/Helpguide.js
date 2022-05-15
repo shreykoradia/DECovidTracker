@@ -4,6 +4,7 @@ import {Button} from "@material-ui/core"
 import image from '../assets/strain.jpg'
 import image2 from '../assets/precaution.jpg'
 import image3 from '../assets/support.jpg'
+import {Link} from 'react-router-dom'
 function Helpguide() {
   return (
     <div className="h-container">
@@ -50,7 +51,7 @@ function Helpguide() {
                 <div class="card-block px-2">
                     
                     <p class="card-text">covid support and help</p>
-                    <Button href="#" variant="text">LEARN MORE</Button>
+                    <Button href="#" variant="text"component={Link} to ="/support" >LEARN MORE</Button>
                 </div>
 
             </div>
