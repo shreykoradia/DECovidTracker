@@ -6,11 +6,11 @@ class Traveldetails extends React.Component {
       <div>
         <div>
           <h1>US Travel Details</h1>
-          <img
+          {/* <img
             src="https://freepngimg.com/thumb/usa/172995-usa-free-download-png-hd.png"
             width={70}
             height={40}
-          ></img>
+          ></img> */}
           <p>
             • Passengers traveling to the US are required to present a negative
             COVID-19 test result or documentation of recovery. Also fully
@@ -45,11 +45,11 @@ class Traveldetails extends React.Component {
 
         <div>
           <h1>Canada Travel Details</h1>
-          <img
+          {/* <img
             src="https://www.transparentpng.com/download/canada-flag/canada-images-canada-flag-png-0.png"
             width={90}
             height={90}
-          ></img>
+          ></img> */}
           <p>
             • Fully Vaccination proof and a negative Covid report(RTPCR) is
             mandatory.
@@ -74,11 +74,11 @@ class Traveldetails extends React.Component {
 
         <div>
           <h1>Australia Travel Details</h1>
-          <img
+          {/* <img
             src="https://www.transparentpng.com/download/australia-flag/aWPhNo-australia-flag-background.png"
             width={80}
             height={75}
-          ></img>
+          ></img> */}
           <p>
             • From 18 April 2022, travellers entering or leaving Australia will
             no longer require a negative pre-departure test and cruise vessels
@@ -109,11 +109,11 @@ class Traveldetails extends React.Component {
 
         <div>
           <h1>Europe Travel Details</h1>
-          <img
+          {/* <img
             src="https://cdn.pixabay.com/photo/2013/07/13/01/09/europe-155191_1280.png"
             width={80}
             height={50}
-          ></img>
+          ></img> */}
           <p>
             • If you’re a tourist, you do not need a visa for short trips to EU
             countries, Switzerland, Norway, Iceland or Liechtenstein. You can

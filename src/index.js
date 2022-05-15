@@ -7,6 +7,7 @@ import Covidstats from './components/CovidStats/Covidstats'
 import Footer from './components/Footer'
 import Support from './components/Support/Support';
 import Review from './components/Team/Review' 
+import Traveldetails from './components/TravelDetails/Traveldetails'
 
 ReactDOM.render(
   // <React.StrictMode>
