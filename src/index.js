@@ -10,6 +10,7 @@ import Support from './components/Support/Support';
 import Review from './components/Team/Review' 
 import Traveldetails from './components/TravelDetails/Traveldetails'
 import Vaccination from './components/VaccinationAPI/Vaccination'
+import Index from './components/Precautions/index'
 
 ReactDOM.render(
   // <React.StrictMode>
@@ -25,6 +26,7 @@ ReactDOM.render(
       <Route path="/team" element={<Review />}></Route>
       <Route path="/api" element={<Api />}></Route>
       <Route path="/support" element={<Support />}></Route>
+      <Route path="/precaution" element={<Index />}></Route>
   </Routes>
   </BrowserRouter>,
   document.getElementById("root")
