@@ -4,11 +4,7 @@ import {Button} from "@material-ui/core"
 import image from '../assets/strain.jpg'
 import image2 from '../assets/precaution.jpg'
 import image3 from '../assets/support.jpg'
-<<<<<<< HEAD
-import { Link } from 'react-router-dom'
-=======
 import {Link} from 'react-router-dom'
->>>>>>> 4a40e17d55555b4b77bc7782fdae689067dc76cd
 function Helpguide() {
   return (
     <div className="h-container">

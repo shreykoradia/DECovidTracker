@@ -16,15 +16,8 @@ ReactDOM.render(
       {/* {routes goes here !! } */}
       <Route path="/" exact element={<App />}></Route>
       <Route path="/covid-stats" element={<Covidstats />}></Route>
-<<<<<<< HEAD
       <Route path="/team" element={<Footer />}></Route>
       <Route path="/covidstrain" element={<Covidstrain />}></Route>
-=======
-      <Route path="/footer" element={<Footer />}></Route>
-      <Route path="/team" element={<Review />}></Route>
-      <Route path="/api" element={<Api />}></Route>
-      <Route path="/support" element={<Support />}></Route>
->>>>>>> 4a40e17d55555b4b77bc7782fdae689067dc76cd
   </Routes> 
   </BrowserRouter>,
   document.getElementById('root')
