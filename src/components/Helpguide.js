@@ -19,7 +19,7 @@ function Helpguide() {
                 <div class="card-block px-2">
                     
                     <p class="card-text">Find more about the new strain</p>
-                    <Button href="#" variant="text">LEARN MORE</Button>
+                    <Button component={Link} to ="/covidstrain" variant="text">LEARN MORE</Button>
                 </div>
 
             </div>
