@@ -9,10 +9,17 @@ function Api() {
         We are Backed by 
         </Typography>
     </div>
-
+    <br />
+    <br />
+    <br />
     <Box>
-    <Paper variant="elevation" elevation={12}>
-
+    <Paper variant="elevation" elevation={2}>
+    <Typography align='center' variant='h5'> 
+    Diseases.sh
+    </Typography>
+    <Typography align='center' variant='h5'> 
+    <a href='www.disease.sh'>API</a>
+    </Typography>
     </Paper>
     </Box>
     </>

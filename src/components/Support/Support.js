@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import styled from "styled-components";
-import {Grid , Typography } from "@material-ui/core";
+import {Grid , Typography , Link} from "@material-ui/core";
 import Footer from '../Footer'
 
 // npm i @emailjs/browser
@@ -44,7 +44,7 @@ const Support = () => {
         </Typography>
         <br />
         <Typography>
-        If you are a journalist and would like an on-the-record quote for an article or would like to interview someone from The COVID Tracking Project, you can write us at <a href="www.github.com/shreykoradia/DECovidTracker">CovidTracking Project</a>.
+        If you are a journalist and would like an on-the-record quote for an article or would like to interview someone from The COVID Tracking Project, you can write us at <Link href="www.github.com/shreykoradia/DECovidTracker">CovidTracking Project</Link>
         </Typography>
         </Grid>
         </Grid> 
@@ -55,7 +55,7 @@ const Support = () => {
         </Typography>
         <br />
         <Typography>
-        If you have a general question or comment, you can write at <a href="www.github.com/shreykoradia/DECovidTracker">Contact CovidTracking Project</a>..
+        If you have a general question or comment, you can write at <Link href=" https://covidtracking.com/contact. ">Contact</Link> 
         </Typography>
         <br />
         <br />
@@ -64,7 +64,7 @@ const Support = () => {
         </Typography>
         <br />
         <Typography>
-       Visit At <a href="www.github.com/shreykoradia/DECovidTracker">Covid Tracking Project</a> for Open Source and Documentation We will Start Opensourcing soon and have various Issue open !
+       Visit At <Link href="https://covidtracking.com/about-data">CovidTracking Project</Link> or Open Source and Documentation We will Start Opensourcing soon and have various Issue open !
         </Typography> 
         <br />
         <br />
