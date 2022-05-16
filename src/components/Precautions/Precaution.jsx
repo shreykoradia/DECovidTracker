@@ -1,5 +1,6 @@
 import React from "react";
 // import PrecautionsList from "./PrecautionList";
+import './styles.css'
 
 function Precaution(props){
     return(
